@@ -15,6 +15,11 @@ namespace Lab2_MVC_Sosa.Controllers
         {
             return View();
         }
+        public ActionResult Ejemplo(ClsBillete objB1)
+        {
+            return View(objB1);
+        }
+
 
         public ActionResult Visualizar(ClsBillete objBillete)
         {
