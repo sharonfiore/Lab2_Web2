@@ -55,6 +55,16 @@ namespace Lab2_MVC_Sosa.Controllers
 
             objLista.Add(objPersona4);
 
+            ClsPersona objPersona5 = new ClsPersona();
+            objPersona5.apellido = "Cotrado Coaquira";
+            objPersona5.nombre = "Arlyn";
+            objPersona5.email = "arlync@gmail.com";
+            objPersona5.edad = 21;
+            objPersona5.sexo = false;
+            objPersona5.talla = 1.65;
+
+            objLista.Add(objPersona5);
+
             return View(objLista);
         }
 
