@@ -38,7 +38,7 @@ namespace Lab2_MVC_Sosa.Controllers
             ClsPersona objPersona3 = new ClsPersona();
             objPersona3.apellido = "Estrella Palacios";
             objPersona3.nombre = "Katherine";
-            objPersona3.email = "kestrella@gmail.com";
+            objPersona3.email = "estrella2424@gmail.com";
             objPersona3.edad = 26;
             objPersona3.sexo = false;
             objPersona3.talla = 1.62;
