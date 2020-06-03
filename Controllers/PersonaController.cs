@@ -14,15 +14,7 @@ namespace Lab2_MVC_Sosa.Controllers
         // GET: Persona
         public ActionResult Index()
         {
-            ClsPersona objPersona1 = new ClsPersona();
-            objPersona1.apellido = "Sosa Bedoya";
-            objPersona1.nombre = "Sharon";
-            objPersona1.email = "sharonfiore05@gmail.com";
-            objPersona1.edad = 22;
-            objPersona1.sexo = false;
-            objPersona1.talla = 1.54;
-
-            objLista.Add(objPersona1);
+         
 
 
             ClsPersona objPersona2 = new ClsPersona();
