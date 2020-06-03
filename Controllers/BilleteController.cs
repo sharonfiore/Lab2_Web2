@@ -23,14 +23,14 @@ namespace Lab2_MVC_Sosa.Controllers
 
         public ActionResult Visualizar(ClsBillete objBillete)
         {
-            int cantidad;
-            cantidad = objBillete.monto;
+            int cantidad2;
+            cantidad2 = objBillete.monto;
 
             int cant100, cant50, cant20, cant10;
             int res100, res50, res20, res10;
 
-            cant100 = cantidad / 100;
-            res100 = cantidad % 100;
+            cant100 = cantidad2 / 100;
+            res100 = cantidad2 % 100;
 
             cant50 = res100 / 50;
             res50 = res100 % 50;
